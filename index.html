@@ -13,36 +13,72 @@
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
+    <header class="fondo">
+        
+        <nav class="navbar navbar-expand-lg  ">
+            <div class="container-fluid ">
                 <a class="navbar-brand" href="#">Logo</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span >Menu</span>
+                    <span>Menu</span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active colorItem" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Features</a>
+                            <a class="nav-link active colorItem" href="#">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Pricing</a>
+                            <a class="nav-link active colorItem" href="#">Quienes somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active"  href="#">Disabled</a>
+                            <a class="nav-link active colorItem" href="#">Donde distribuimos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active colorItem" href="#">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        
     </header>
-<main>
-    
-</main>
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://fotos.perfil.com//2019/10/07/900/0/cuales-son-los-autos-mas-potentes-del-mundo-788463.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/4GSUPRZXXREO7A3YKFIT3W2RMM.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://assets.iprofesional.com/cdn-cgi/image/w=880,f=webp/https://assets.iprofesional.com/assets/jpg/2020/03/492392.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+    </main>
 
 
 

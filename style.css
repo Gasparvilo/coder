@@ -1,5 +1,24 @@
 .navbar{
-    display: flex;
-    justify-content: end;
-    padding: 40px;
+    background: linear-gradient(266deg, rgb(183, 206, 164) 0%, rgb(169, 219, 146) 47%, rgb(125, 184, 92) 100%) rgb(57, 179, 41); 
 }
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin: 5px;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    background-color: chocolate;
+    border-radius: 30px;
+}
+
+.carousel{
+    font-size: 20px;
+}
+
